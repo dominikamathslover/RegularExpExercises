@@ -1,4 +1,4 @@
-
+package SplitExercises;
 
 public class SplitDash {
     public static void main(String[] args) {

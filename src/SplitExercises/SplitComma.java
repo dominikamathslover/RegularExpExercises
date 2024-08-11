@@ -1,4 +1,4 @@
-
+package SplitExercises;
 
 public class SplitComma {
 

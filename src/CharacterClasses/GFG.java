@@ -1,3 +1,5 @@
+package CharacterClasses;
+
 import java.util.regex.*;
 
 class GFG {

@@ -1,3 +1,4 @@
+package SplitExercises;
 
 public class SplitExercise {
 

@@ -1,3 +1,5 @@
+package ReplaceExercises;
+
 import java.util.regex.*;
 
 public class ReplaceSpaces {

@@ -1,3 +1,4 @@
+package ImportantExercises;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -7,7 +8,7 @@ public class DeleteDuplicate {
 
     public static void main(String args[]) {
         // Test Case: 1
-        String str1 = "Good bye bye world world";
+        String str1 = "Good bye bye bye bye world bye world";
         System.out.println(removeDuplicateWords(str1));
 
         // Test Case: 2
@@ -37,8 +38,6 @@ public class DeleteDuplicate {
          6. “\\b” Another word boundary anchor to ensure that the repeated word is a whole word.
          7. “+” This quantifier ensures that the non-capturing group (?:\\W+\\1\\b) matches
          one or more times, effectively matching one or more repeated words.
-
-
          */
 
 

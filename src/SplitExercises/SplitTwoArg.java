@@ -1,12 +1,14 @@
+package SplitExercises;
+
 public class SplitTwoArg {
     public static void main(String[] args) {
 
-        String text ="GeekSs@for@gEekss";
+        String text ="Geekss@for@gEekss";
         //String regExp ="@";
         //String regExp ="o";
-        //String regExp ="s";
+        String regExp ="s";
         //String regExp ="[A-Z]";
-        String regExp ="[, ?.@]";
+        //String regExp ="[, ?.@]";
 
         splitNew(text,regExp);
 
