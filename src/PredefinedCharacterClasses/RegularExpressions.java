@@ -7,14 +7,17 @@ public class RegularExpressions {
 
     public static void main(String[] args){
 
-        String  text ="komn h89_2@KK ompLKJ#   -  ?2S! !#$%^&*()~`{}[]:'/,q w+e p";
+        String  text ="komsdn h89_2@KK ompLKJ#   -  ?2S! || !#$%^&*()~`{}[]:'/,q w+e p";
         //String regExp ="\\s";  //space
         //String regExp ="\\S";  //non-space
         //String regExp ="\\d"; //digit
         //String regExp ="\\D"; //non-digit
         //String regExp ="\\w";  //char or digit or _ (not: ?<.@ etc.)
-        String regExp ="\\W";  // !@#$%^&*()-.,+space
-
+        //String regExp ="\\W";  // !@#$%^&*()-.,+space
+        //String regExp ="."; // any character
+        //String regExp ="\\|";
+        //String regExp ="\\Q|\\E";
+        String regExp ="2S";
 
 
         checkRegularExp(text,regExp);
